@@ -1,0 +1,17 @@
+Nome: Santiago
+    Cognome: Petean
+    Fila n.: 1
+    Posizione n.: 1
+
+    Rispondere alle seguenti domande:
+
+    1. Cosa fa il comando 'git status'? Spiega come funziona la staging area
+	Il comando git status viene utilizzato per visualizzare lo stato del repository e dell'area di staging. Ci consente di vedere i file e le modifiche tracciati e non tracciati. 
+	Questo comando non mostrerà alcun record o informazione di commit.
+    2. Descrivi il comando 'git switch <branch>', spiegando brevemente cosa sono i branch e cosa è la HEAD
+	Il comando git branch ti consente di creare, elencare e rimuovere rami, oltre a rinominarli. Non ti consente di passare da un ramo all'altro o di rientrare in una cronologia biforcuta. 
+	Per questo motivo, git branch è strettamente integrato con i comandi git checkout e git merge.
+    3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git clone <remote repository>'
+	I repository remoti sono versioni del tuo progetto ospitate su Internet o su qualsiasi altra rete. Puoi averne diversi e in ognuno 
+	avrai generalmente autorizzazioni di sola lettura o lettura-scrittura.Git clone è un'utilità della riga di comando Git che viene utilizzata
+	per indirizzare un repository esistente e creare un clone o una copia del repository.
