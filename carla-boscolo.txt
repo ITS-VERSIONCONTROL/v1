@@ -1,0 +1,21 @@
+  Nome: Carla
+  Cognome: Boscolo
+  Fila n.: 1
+  Posizione n.: 3
+
+  Rispondere alle seguenti domande:
+
+  1. Cosa fa il comando 'git restore --staged <file>'? Spiega come funziona la staging area
+  2. Descrivi il comando 'git merge <branch>', spiegando brevemente cosa sono i branch e cosa è la HEAD
+  3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git pull'
+
+
+Risposte
+  1.  Il comando git-restore ripristina i file ad albero di lavoro. La staging area è un file, generalmente contenuto nella Git directory, che memorizza informazioni su cosa andrà a finire nel prossimo commit. A volte viene chiamata "indice". 
+Ogni file nella directory di lavoro (working directory) può trovarsi in uno di due stati: tracciato o non tracciato. 
+I file tracciati sono file che erano nell'ultimo snapshot; possono essere non modificati, modificati o staged. 
+I file non tracciati sono tutto il resto: tutti i file nella directory di lavoro che non erano nell'ultimo snapshot e non si trovano nella staging area. Quando un file è staged, significa che un file è contrassegnato nella sua versione corrente per passare allo snapshot di commit successivo.
+2. Git merge <branch> permette di incorporare dunque unificare le modifiche del branch nominati <branch> nel ramo corrente.  
+Git permette di archiviare la history come un grafico di snapshot all'interno del repo. Dunque farà delle istantanee chiamate commit, le quali possono avere più genitori, dunque creando una cronologia la quale può essere recuperata tramite gli SHA con cui posso passare a commit precedenti. 
+Un branch rappresenta una linea di sviluppo la quale viene puntata da HEAD con il comando git checkout.
+ 3. Un repository remoto è una copia del repository situato in un server remoto, utilizzato per rendere accessibile la collaborazione tra più soggetti. Git pull esegue un aggiornamento completo della copia locale del tuo repository, allineandola con la versione remota. Tutti i cambiamenti presenti sul repository remoto, vengono replicati su quello locale.
